@@ -17,6 +17,7 @@ Pod::Spec.new do |s|
   s.author       = { "neo" => "yhh1125@gmail.com" }
   s.platform     = :ios, "10.0"
   s.source       = { :git => "https://github.com/neo1125/MyFramework.git", :tag => "#{s.version}" }
-  s.source_files  = "**/*.swift"
+  s.source_files = "**/*.swift"
+  s.dependency	'Alamofire'
   
 end
